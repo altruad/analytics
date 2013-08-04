@@ -1,0 +1,156 @@
+/* Altruad Share Buttons: New Version (June 23, 2012) */
+.altruad.horizontal .altruad_gplus, .altruad.vertical .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.vertical .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.vertical .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.vertical .altruad_pinterest, .altruad.horizontal .altruad_email, .altruad.vertical .altruad_email {
+	display: block;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	background-image: url(img/altruad_buttons.png);
+}
+
+.altruad.horizontal .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_email {
+	float: left;
+	margin-right: 20px;
+}
+
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_twitter, .altruad.vertical .altruad_facebook, .altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_email {
+	margin: 0 auto 10px;
+}
+
+/* Google Plus */
+/* Horizontal */
+.altruad.horizontal .altruad_gplus {
+	background-position: 0 -491px;
+	width: 86px;
+	height: 24px;
+}
+.altruad.horizontal .altruad_gplus:active {
+	background-position: 0 -423px;
+}
+.altruad.horizontal .altruad_gplus:hover {
+	background-position: 0 -457px;
+}
+.altruad.horizontal .altruad_gplus .count {
+	display: block;
+	margin: 3px 0 0 58px;
+	font-size: 14px;
+}
+/* Vertical */
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_gplus:active {
+	background-position: 0 -353px;
+	width: 50px;
+	height: 60px;
+}
+.altruad.vertical .altruad_gplus:hover {
+	background-position: 0 -283px;
+}
+.altruad.vertical .altruad_gplus .count {
+	display: block;
+	padding-top: 6px;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}
+
+/* Twitter */
+/* Horizontal */
+.altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_twitter:active {
+	background-position: 0 -903px;
+	width: 96px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_twitter:hover {
+	background-position: 0 -873px;
+}
+.altruad.horizontal .altruad_twitter .count {
+	display: block;
+	margin: 2px 0 0 72px;
+	font-size: 13px;
+}
+/* Vertical */
+.altruad.vertical .altruad_twitter, .altruad.vertical .altruad_twitter:active {
+	background-position: 0 -801px;
+	width: 59px;
+	height: 62px;
+}
+.altruad.vertical .altruad_twitter:hover {
+	background-position: 0 -729px;
+}
+.altruad.vertical .altruad_twitter .count {
+	display: block;
+	padding-top: 8px;
+	margin: 10px 0 0 20px;
+	font-size: 16px;
+}
+
+/* Facebook */
+/* Horizontal */
+.altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_facebook:active {
+	background-position: 0 -253px;
+	width: 82px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_facebook:hover {
+	background-position: 0 -223px;
+}
+.altruad.horizontal .altruad_facebook .count {
+	display: block;
+	margin: 2px 0 0 61px;
+	font-size: 13px;
+}
+/* Vertical */
+.altruad.vertical .altruad_facebook, .altruad.vertical .altruad_facebook:active {
+	background-position: 0 -152px;
+	width: 47px;
+	height: 62px;
+	margin-top: 10px;
+}
+.altruad.vertical .altruad_facebook:hover {
+	background-position: 0 -80px;
+}
+.altruad.vertical .altruad_facebook .count {
+	display: block;
+	padding-top: 8px;
+	margin: 6px 0 0 26px;
+	font-size: 14px;
+}
+
+/* Pinterest */
+/* Horizontal */
+.altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_pinterest:active {
+	background-position: 0 -694px;
+	width: 73px;
+	height: 25px;
+}
+.altruad.horizontal .altruad_pinterest:hover {
+	background-position: 0 -659px;
+}
+.altruad.horizontal .altruad_pinterest .count {
+	display:block;
+	margin: 4px 0 0 56px;
+	font-size: 12px;
+}
+/* Vertical */
+.altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_pinterest:active {
+	background-position: 0 -592px;
+	width: 49px;
+	height: 57px;
+}
+.altruad.vertical .altruad_pinterest:hover {
+	background-position: 0 -525px;
+}
+.altruad.vertical .altruad_pinterest .count {
+	display: block;
+	padding-top: 4px;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}
+
+/* Email */
+.altruad.horizontal .altruad_email, .altruad.horizontal .altruad_email:active, .altruad.vertical .altruad_email, .altruad.vertical .altruad_email:active {
+	display: block;
+	background-position: 0 -40px;
+	width: 64px;
+	height: 30px;
+	cursor: pointer;
+}
+.altruad.horizontal .altruad_email:hover, .altruad.vertical .altruad_email:hover {
+	background-position: 0 0;
+}

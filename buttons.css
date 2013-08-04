@@ -1,0 +1,389 @@
+/* Altruad Share Buttons: New Version (July 20, 2012) */
+
+span.altruad.horizontal {
+	border: 1px solid #E9E9E9;
+	height: 60px;
+	width: 622px;
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #F9F9F9;
+}
+
+.altruad.horizontal {
+	margin: 0 auto;
+}
+
+.altruad.horizontal .altruad_gplus, .altruad.vertical .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.vertical .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.vertical .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.vertical .altruad_pinterest, .altruad.horizontal .altruad_buffer, .altruad.vertical .altruad_buffer, .altruad.horizontal .altruad_linkedin, .altruad.vertical .altruad_linkedin, .altruad.horizontal .altruad_email, .altruad.vertical .altruad_email {
+	display: block;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	background-image: url(img/altruad_buttons.png);
+}
+
+.altruad.horizontal .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_buffer, .altruad.horizontal .altruad_linkedin, .altruad.horizontal .altruad_email {
+	float: left;
+	margin-right: 5px;
+}
+
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_twitter, .altruad.vertical .altruad_facebook, .altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_buffer, .altruad.vertical .altruad_linkedin, .altruad.vertical .altruad_email {
+	margin: 0 auto 10px;
+}
+
+/* Buffer */
+/* Horizontal */
+.altruad.horizontal .altruad_buffer {
+	background-position: 0 -60px;
+	width: 83px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_buffer:active {
+	background-position: 0 0;
+}
+.altruad.horizontal .altruad_buffer:hover {
+	background-position: 0 -30px;
+}
+.altruad.horizontal .altruad_buffer .count {
+	display: block;
+	margin: 0px 0 auto;
+	font-size: 14px;
+	width: 15px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_buffer {
+	background-position: 0 -234px;
+	width: 55px;
+	height: 62px;
+}
+.altruad.vertical .altruad_buffer:active {
+	background-position: 0 -90px;
+}
+.altruad.vertical .altruad_buffer:hover {
+	background-position: 0 -162px;
+}
+.altruad.vertical .altruad_buffer .count {
+	display: block;
+	padding-top: 6px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+/* Email */
+.altruad.horizontal .altruad_email, .altruad.horizontal .altruad_email:active, .altruad.vertical .altruad_email, .altruad.vertical .altruad_email:active {
+	display: block;
+	background-position: 0 -346px;
+	width: 64px;
+	height: 30px;
+	cursor: pointer;
+}
+.altruad.horizontal .altruad_email:hover, .altruad.vertical .altruad_email:hover {
+	background-position: 0 -306px;
+}
+
+/* Facebook */
+/* Horizontal */
+.altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_facebook:active {
+	background-position: 0 -559px;
+	width: 82px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_facebook:hover {
+	background-position: 0 -529px;
+}
+.altruad.horizontal .altruad_facebook .count {
+	display: block;
+	margin: 1px 0 auto;
+	font-size: 13px;
+	width:18px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_facebook, .altruad.vertical .altruad_facebook:active {
+	background-position: 0 -458px;
+	width: 47px;
+	height: 62px;
+	margin-top: 112px;
+}
+.altruad.vertical .altruad_facebook:hover {
+	background-position: 0 -386px;
+}
+.altruad.vertical .altruad_facebook .count {
+	display: block;
+	padding-top: 8px;
+	margin: 0 auto;
+	font-size: 14px;
+	width: 24px;
+	float: right;
+}
+
+/* Google Plus */
+/* Horizontal */
+.altruad.horizontal .altruad_gplus {
+	background-position: 0 -797px;
+	width: 86px;
+	height: 24px;
+}
+.altruad.horizontal .altruad_gplus:active {
+	background-position: 0 -729px;
+}
+.altruad.horizontal .altruad_gplus:hover {
+	background-position: 0 -763px;
+}
+.altruad.horizontal .altruad_gplus .count {
+	display: block;
+	margin: 2px 0 auto;
+	font-size: 14px;
+	width: 24px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_gplus:active {
+	background-position: 0 -659px;
+	width: 50px;
+	height: 60px;
+}
+.altruad.vertical .altruad_gplus:hover {
+	background-position: 0 -589px;
+}
+.altruad.vertical .altruad_gplus .count {
+	display: block;
+	padding-top: 6px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+/* LinkedIn */
+/* Horizontal */
+.altruad.horizontal .altruad_linkedin {
+	background-position: 0 -891px;
+	width: 103px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_linkedin:active {
+	background-position: 0 -831px;
+}
+.altruad.horizontal .altruad_linkedin:hover {
+	background-position: 0 -861px;
+}
+.altruad.horizontal .altruad_linkedin .count {
+	display: block;
+	margin: 1px 0 auto;
+	font-size: 14px;
+	width: 22px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_linkedin {
+	background-position: 0 -1065px;
+	width: 61px;
+	height: 62px;
+}
+.altruad.vertical .altruad_linkedin:active {
+	background-position: 0 -921px;
+}
+.altruad.vertical .altruad_linkedin:hover {
+	background-position: 0 -993px;
+}
+.altruad.vertical .altruad_linkedin .count {
+	display: block;
+	padding-top: 6px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+/* Pinterest */
+/* Horizontal */
+.altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_pinterest:active {
+	background-position: 0 -1306px;
+	width: 73px;
+	height: 25px;
+}
+.altruad.horizontal .altruad_pinterest:hover {
+	background-position: 0 -1271px;
+}
+.altruad.horizontal .altruad_pinterest .count {
+	display:block;
+	margin: 2px 0 auto;
+	font-size: 12px;
+	width: 14px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_pinterest:active {
+	background-position: 0 -1204px;
+	width: 49px;
+	height: 57px;
+}
+.altruad.vertical .altruad_pinterest:hover {
+	background-position: 0 -1137px;
+}
+.altruad.vertical .altruad_pinterest .count {
+	display: block;
+	padding-top: 4px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+/* Twitter */
+/* Horizontal */
+.altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_twitter:active {
+	background-position: 0 -1515px;
+	width: 96px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_twitter:hover {
+	background-position: 0 -1485px;
+}
+.altruad.horizontal .altruad_twitter .count {
+	display: block;
+	margin: 1px 0 auto;
+	font-size: 13px;
+	width: 20px;
+	float: right;
+}
+/* Vertical */
+.altruad.vertical .altruad_twitter, .altruad.vertical .altruad_twitter:active {
+	background-position: 0 -1413px;
+	width: 59px;
+	height: 62px;
+}
+.altruad.vertical .altruad_twitter:hover {
+	background-position: 0 -1341px;
+}
+.altruad.vertical .altruad_twitter .count {
+	display: block;
+	padding-top: 8px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+/* Fabrice Calando Specific Styles */
+#dd_ajax_float{
+	text-align:center;
+	line-height:16px;
+	font-size:10px;
+	font-family:Arial;
+	border:1px solid #bbb;
+	min-width:55px;
+	width: auto;
+	background-color:#fff;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	-webkit-box-shadow:1px 0px 15px rgba(0,0,0,0.2);
+	-moz-box-shadow:1px 0px 15px rgba(0,0,0,0.2);
+	box-shadow:1px 0px 15px rgba(0,0,0,0.2);
+	padding:10px!important;
+	position: absolute;
+	display: none;
+	left: 120px;
+	top:51px!important;
+}
+
+.dd_outer {
+	width: 100%;
+	height: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1!important;
+}
+.dd_inner {
+	margin: 0 auto;
+	position: relative;
+}
+
+.dd_post_share{
+	padding:0px;
+	margin-bottom:6px;
+	display:block;
+}
+
+html{overflow-y:scroll;}
+
+/* Incentive */
+
+.altruad.horizontal .incentive {
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+}
+.altruad.vertical .incentive {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0 auto;
+    clear: both;
+    position: absolute;
+    top: 6px;
+	left: 2px;
+}
+.altruad.horizontal .incentive .charity {
+    background-image: url(img/wwf_hor.jpg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 520px;
+    height: 40px;
+    display: inline-block;
+	margin-left: 70px;
+}
+.altruad.vertical .incentive .charity {
+    background-image: url(img/wwf_ver.jpg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 80px;
+    height: 117px;
+    display: block;
+}
+
+.hotspot {
+    color: #900;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #900;
+    cursor: pointer;
+}
+#altruad_incentive_tt {
+    position: absolute;
+    display: block;
+    background: url(http://analytics.altruad.com/img/tt_left.gif) top left no-repeat;
+    font-size: 12px;
+    z-index: 1000;
+}
+#altruad_incentive_tttop {
+    display: block;
+    height: 5px;
+    margin-left: 5px;
+    background: url(http://analytics.altruad.com/img/tt_top.gif) top right no-repeat;
+    overflow: hidden;
+}
+#altruad_incentive_ttcont {
+    display: block;
+    padding: 2px 10px 3px 7px;
+    margin-left: 5px;
+    background: #666;
+    color: #FFF;
+}
+#altruad_incentive_ttbot {
+    display: block;
+    height: 5px;
+    margin-left: 5px;
+    background: url(http://analytics.altruad.com/img/tt_bottom.gif) top right no-repeat;
+    overflow: hidden;
+}

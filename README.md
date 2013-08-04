@@ -1,4 +1,4 @@
-analytics
+Altruad: Analytics
 =========
 
-Altruad Analytics system
+Analyze traffic quality in publishers' websites while enabling social sharing.

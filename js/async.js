@@ -1,0 +1,1 @@
+(function(d){var s=d.createElement('script'),x=d.getElementsByTagName('script')[0];s.type='text/javascript';s.async=true;s.src='//analytics.altruad.com/altruad.min.js';x.parentNode.insertBefore(s,x);var c=d.createElement('link');c.type='text/css';c.rel='stylesheet';c.href='//analytics.altruad.com/altruad.min.css';x.parentNode.insertBefore(c,x);}(document));

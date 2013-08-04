@@ -1,0 +1,156 @@
+/* Altruad Share Buttons: New Version (June 23, 2012) */
+
+/* HORIZONTAL DESIGNS */
+
+/* Google Plus */
+.altruad_gplus_button {
+	display: block;
+	background: url(img/gplus_normal.png) no-repeat;
+	width: 86px;
+	height: 24px;
+	cursor: pointer;
+}
+.altruad_gplus_button:active {
+	background-image: url(img/gplus_active.png);
+}
+.altruad_gplus_button:hover {
+	background-image: url(img/gplus_hover.png);
+}
+.altruad_gplus_button .altruad_gplus_count {
+	display: block;
+	margin: 3px 0 0 58px;
+	font-size: 14px;
+}
+
+/* Twitter */
+.altruad_twitter_button, .altruad_twitter_button:active {
+	display: block;
+	background: url(img/twitter_normal.png) no-repeat;
+	width: 96px;
+	height: 20px;
+	cursor: pointer;
+}
+.altruad_twitter_button:hover {
+	background-image: url(img/twitter_hover.png);
+}
+.altruad_twitter_button .altruad_twitter_count {
+	display: block;
+	margin: 2px 0 0 72px;
+	font-size: 13px;
+}
+
+/* Facebook */
+.altruad_facebook_button, .altruad_facebook_button:active {
+	display: block;
+	background: url(img/facebook_normal.png) no-repeat;
+	width: 82px;
+	height: 20px;
+	cursor: pointer;
+}
+.altruad_facebook_button:hover {
+	background-image: url(img/facebook_hover.png);
+}
+.altruad_facebook_button .altruad_facebook_count {
+	display: block;
+	margin: 2px 0 0 61px;
+	font-size: 13px;
+}
+
+/* Pinterest */
+.altruad_pinterest_button, .altruad_pinterest_button:active {
+	display: block;
+	background: url(img/pinterest_normal.png) no-repeat;
+	width: 73px;
+	height: 25px;
+	cursor: pointer;
+}
+.altruad_pinterest_button:hover {
+	background-image: url(img/pinterest_hover.png);
+}
+.altruad_pinterest_button .altruad_pinterest_count {
+	display:block;
+	margin: 4px 0 0 56px;
+	font-size: 12px;
+}
+
+/* Email */
+.altruad_email_button, .altruad_email_button:active {
+	display: block;
+	background: url(img/email_normal.png) no-repeat;
+	width: 64px;
+	height: 30px;
+	cursor: pointer;
+}
+.altruad_email_button:hover {
+	background-image: url(img/email_hover.png);
+}
+
+
+/* VERTICAL DESIGNS */
+/* Twitter */
+.altruad_twitter_vbutton, .altruad_twitter_vbutton:active {
+	display: block;
+	background: url(img/twitter-vertical_normal.png) no-repeat;
+	width: 59px;
+	height: 62px;
+	cursor: pointer;
+}
+.altruad_twitter_vbutton:hover {
+	background-image: url(img/twitter-vertical_hover.png);
+}
+.altruad_twitter_vbutton .altruad_twitter_vcount {
+	display: block;
+	margin: 10px 0 0 20px;
+	font-size: 16px;
+}
+
+/* Google Plus */
+.altruad_gplus_vbutton, .altruad_gplus_vbutton:active {
+	display: block;
+	background: url(img/gplus-vertical_normal.png) no-repeat;
+	width: 50px;
+	height: 60px;
+	cursor: pointer;
+}
+.altruad_gplus_vbutton:hover {
+	background-image: url(img/gplus-vertical_hover.png);
+}
+.altruad_gplus_vbutton .altruad_gplus_vcount {
+	display: block;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}
+
+/* Facebook */
+.altruad_facebook_vbutton, .altruad_facebook_vbutton:active {
+	display: block;
+	background: url(img/facebook-vertical_normal.png) no-repeat;
+	width: 47px;
+	height: 62px;
+	cursor: pointer;
+}
+.altruad_facebook_vbutton:hover {
+	background-image: url(img/facebook-vertical_hover.png);
+}
+.altruad_facebook_vbutton .altruad_facebook_vcount {
+	display: block;
+	margin: 6px 0 0 26px;
+	font-size: 16px;
+}
+
+/* Pinterest */
+.altruad_pinterest_vbutton, .altruad_pinterest_vbutton:active {
+	display: block;
+	background: url(img/pinterest-vertical_normal.png) no-repeat;
+	width: 49px;
+	height: 57px;
+	cursor: pointer;
+}
+.altruad_pinterest_vbutton:hover {
+	background-image: url(img/pinterest-vertical_hover.png);
+}
+.altruad_pinterest_vbutton .altruad_pinterest_vcount {
+	display: block;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}

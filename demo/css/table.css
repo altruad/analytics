@@ -1,0 +1,13 @@
+/* For demonstration purposes */
+h2 {
+	color:#515151;
+	border-bottom: 1px solid #eee;
+}
+.mytable {
+	font-size: 14px;
+}
+.mytable td {
+  padding: 10px;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}

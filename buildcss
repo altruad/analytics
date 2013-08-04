@@ -1,0 +1,1 @@
+cat buttons.css | java -jar yuicompressor-2.4.7.jar --type css -o css/altruad.min.css

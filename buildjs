@@ -1,0 +1,1 @@
+cat js/utility.js js/visit.js js/events.js js/jsonp.js js/init.js js/tooltip.js js/ready.js | java -jar yuicompressor-2.4.7.jar --type js -o js/altruad.min.js

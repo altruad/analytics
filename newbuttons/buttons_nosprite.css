@@ -1,0 +1,151 @@
+/* Altruad Share Buttons: New Version (June 23, 2012) */
+.altruad.horizontal .altruad_gplus, .altruad.vertical .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.vertical .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.vertical .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.vertical .altruad_pinterest {
+	display: block;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	padding-top: 1px;
+}
+
+.altruad.horizontal .altruad_gplus, .altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_email {
+	float: left;
+	margin-right: 20px;
+}
+
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_twitter, .altruad.vertical .altruad_facebook, .altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_email {
+	margin-bottom: 10px;
+}
+
+/* Google Plus */
+/* Horizontal */
+.altruad.horizontal .altruad_gplus {
+	background: url(img/gplus_normal.png) no-repeat;
+	width: 86px;
+	height: 24px;
+}
+.altruad.horizontal .altruad_gplus:active {
+	background-image: url(img/gplus_active.png);
+}
+.altruad.horizontal .altruad_gplus:hover {
+	background-image: url(img/gplus_hover.png);
+}
+.altruad.horizontal .altruad_gplus .count {
+	display: block;
+	margin: 3px 0 0 58px;
+	font-size: 14px;
+}
+/* Vertical */
+.altruad.vertical .altruad_gplus, .altruad.vertical .altruad_gplus:active {
+	background: url(img/gplus-vertical_normal.png) no-repeat;
+	width: 50px;
+	height: 60px;
+}
+.altruad.vertical .altruad_gplus:hover {
+	background-image: url(img/gplus-vertical_hover.png);
+}
+.altruad.vertical .altruad_gplus .count {
+	display: block;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}
+
+/* Twitter */
+/* Horizontal */
+.altruad.horizontal .altruad_twitter, .altruad.horizontal .altruad_twitter:active {
+	background: url(img/twitter_normal.png) no-repeat;
+	width: 96px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_twitter:hover {
+	background-image: url(img/twitter_hover.png);
+}
+.altruad.horizontal .altruad_twitter .count {
+	display: block;
+	margin: 2px 0 0 72px;
+	font-size: 13px;
+}
+/* Vertical */
+.altruad.vertical .altruad_twitter, .altruad.vertical .altruad_twitter:active {
+	background: url(img/twitter-vertical_normal.png) no-repeat;
+	width: 59px;
+	height: 62px;
+}
+.altruad.vertical .altruad_twitter:hover {
+	background-image: url(img/twitter-vertical_hover.png);
+}
+.altruad.vertical .altruad_twitter .count {
+	display: block;
+	margin: 10px 0 0 20px;
+	font-size: 16px;
+}
+
+/* Facebook */
+/* Horizontal */
+.altruad.horizontal .altruad_facebook, .altruad.horizontal .altruad_facebook:active {
+	background: url(img/facebook_normal.png) no-repeat;
+	width: 82px;
+	height: 20px;
+}
+.altruad.horizontal .altruad_facebook:hover {
+	background-image: url(img/facebook_hover.png);
+}
+.altruad.horizontal .altruad_facebook .count {
+	display: block;
+	margin: 2px 0 0 61px;
+	font-size: 13px;
+}
+/* Vertical */
+.altruad.vertical .altruad_facebook, .altruad.vertical .altruad_facebook:active {
+	background: url(img/facebook-vertical_normal.png) no-repeat;
+	width: 47px;
+	height: 62px;
+}
+.altruad.vertical .altruad_facebook:hover {
+	background-image: url(img/facebook-vertical_hover.png);
+}
+.altruad.vertical .altruad_facebook .count {
+	display: block;
+	margin: 6px 0 0 26px;
+	font-size: 16px;
+}
+
+/* Pinterest */
+/* Horizontal */
+.altruad.horizontal .altruad_pinterest, .altruad.horizontal .altruad_pinterest:active {
+	background: url(img/pinterest_normal.png) no-repeat;
+	width: 73px;
+	height: 25px;
+}
+.altruad.horizontal .altruad_pinterest:hover {
+	background-image: url(img/pinterest_hover.png);
+}
+.altruad.horizontal .altruad_pinterest .count {
+	display:block;
+	margin: 4px 0 0 56px;
+	font-size: 12px;
+}
+/* Vertical */
+.altruad.vertical .altruad_pinterest, .altruad.vertical .altruad_pinterest:active {
+	background: url(img/pinterest-vertical_normal.png) no-repeat;
+	width: 49px;
+	height: 57px;
+}
+.altruad.vertical .altruad_pinterest:hover {
+	background-image: url(img/pinterest-vertical_hover.png);
+}
+.altruad.vertical .altruad_pinterest .count {
+	display: block;
+	margin: 6px 0 0 16px;
+	font-size: 16px;
+}
+
+/* Email */
+.altruad.horizontal .altruad_email, .altruad.horizontal .altruad_email:active, .altruad.vertical .altruad_email, .altruad.vertical .altruad_email:active {
+	display: block;
+	background: url(img/email_normal.png) no-repeat;
+	width: 64px;
+	height: 30px;
+	cursor: pointer;
+}
+.altruad.horizontal .altruad_email:hover, .altruad.vertical .altruad_email:hover {
+	background-image: url(img/email_hover.png);
+}
